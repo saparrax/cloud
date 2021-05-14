@@ -1,0 +1,58 @@
+{
+  "name": "shards-dashboard-lite-react",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@coreui/coreui": "^3.4.0",
+    "@coreui/react": "^3.3.5",
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "camelize": "^1.0.0",
+    "chart.js": "^2.7.3",
+    "classnames": "^2.2.6",
+    "cookies-next": "^1.1.3",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "date-fns": "^2.0.0-beta.5",
+    "dateformat": "^3.0.3",
+    "flux": "^3.1.3",
+    "http-proxy-middleware": "^1.0.6",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.1",
+    "lodash.find": "^4.6.0",
+    "multer": "^1.4.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.6.3",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.6.3",
+    "react-ga": "^2.5.6",
+    "react-images-uploading": "^3.1.2",
+    "react-quill": "^1.3.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.1",
+    "shards-react": "^1.0.0",
+    "shortid": "^2.2.14"
+  },
+  "scripts": {
+    "start": "export HTTPS=true&&SSL_CRT_FILE=cert.pem&&SSL_KEY_FILE=key.pem react-scripts start",
+    "build:prod": "cross-env REACT_APP_BASENAME=/demo/shards-dashboard-lite-react REACT_APP_GAID=UA-115105611-1 npm run build",
+    "build": "cross-env REACT_APP_BASENAME=/demo/shards-dashboard-lite-react react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
